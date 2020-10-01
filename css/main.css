@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #e2ecee;
+}
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: black;
+}
+.left__menu {
+    width: 20%;
+    border-right: 2px solid #d1dadf;
+}
+.right__menu {
+    width: 80%;
+}
+.left__menu > h3 {
+    margin: 1vh 0 0 1vw;
+}
+.left__menu  ul {
+    margin: 1vh 0 0 0;
+}
+.left__menu  ul  li {
+    text-align: center;
+    margin-left: -5vw;
+}
+.left__menu  ul  li:hover {
+    background-color: #cdd8da;
+}
+.right__menu h3 {
+    margin: 2vh 0 0 1vw;
+}
+.right__menu button {
+    background-color: #9cbf0b;
+    margin: 2vh 0 0 1vw;
+    padding:5px 10px 5px 10px;
+    border-width: 0;
+    border-radius: 5px;
+    color: white;
+}
+.right__menu table {
+    margin: 2vh 0 0 1vw;
+}
+th, td {
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+}
+th {
+    background-color: #b3bec4;
+}
+.right__menu form {
+
+}
+.img {
+    width: 100%;
+    height: auto;
+}
+table td:first-child {
+    text-align: center;
+}
+.form_add {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.form_add input, label {
+display: block;
+}
+label {
+    margin-top: 2vh;
+}
+#submit {
+    margin-top: 3vh;
+    background-color: #9cbf0b;
+    margin: 2vh 0 0 0;
+    padding:5px 10px 5px 10px;
+    border-width: 0;
+    border-radius: 5px;
+    color: white;
+}
